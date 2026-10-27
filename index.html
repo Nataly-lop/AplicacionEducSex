@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#5b4bdb">
+  <title>EducSex | Orientación y bienestar juvenil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="EducSex, inicio">
+      <span class="brand-mark">e<span>+</span></span>
+      <span><strong>EducSex</strong><small>INFORMACIÓN QUE TE CUIDA</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#mitos">Mitos y realidades</a>
+      <a href="#centros">Centros de salud</a>
+      <a href="#chat">Chat anónimo</a>
+      <a href="#test">Test</a>
+    </nav>
+    <a class="header-cta" href="#chat">Pedir orientación <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> UN ESPACIO SEGURO PARA JÓVENES</div>
+        <h1>Tu bienestar.<br><span>Tu información.</span><br>Tu decisión.</h1>
+        <p class="hero-text">Resuelve dudas sobre salud sexual y reproductiva con información clara, orientación respetuosa y recursos para tomar decisiones informadas.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#mitos">Explorar información <span>→</span></a>
+          <a class="button button-quiet" href="#chat"><span class="chat-icon">◌</span> Hablar en privado</a>
+        </div>
+        <div class="trust-line"><span class="trust-icon">✓</span> Sin juicios · Lenguaje claro · Privacidad primero</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-card card-note"><span class="note-icon">✳</span><div><b>Infórmate</b><small>Con fuentes confiables</small></div></div>
+        <div class="art-center">
+          <div class="sunburst">✦</div>
+          <div class="person-head"></div><div class="person-body"></div>
+          <div class="art-heart">♥</div>
+        </div>
+        <div class="art-card card-chat"><span class="chat-bubble">•••</span><div><b>Pregunta sin pena</b><small>Tu duda importa</small></div></div>
+        <span class="decor-dot dot-a"></span><span class="decor-dot dot-b"></span><span class="decor-star">✧</span>
+      </div>
+    </section>
+
+    <section class="quick-stats section-wrap" aria-label="Principios de EducSex">
+      <div><span class="stat-symbol purple">✦</span><p><b>Información confiable</b><small>Aprende a tu ritmo</small></p></div>
+      <div><span class="stat-symbol mint">♡</span><p><b>Espacio respetuoso</b><small>Todas las preguntas cuentan</small></p></div>
+      <div><span class="stat-symbol peach">⌖</span><p><b>Apoyo cercano</b><small>Encuentra servicios de salud</small></p></div>
+    </section>
+
+    <section class="content-section section-wrap" id="mitos">
+      <div class="section-heading">
+        <div><div class="eyebrow">APRENDE SIN TABÚES</div><h2>Mitos y realidades</h2></div>
+        <p>Desliza las tarjetas y descubre qué dice la información de salud.</p>
+      </div>
+      <div class="myth-grid" id="mythGrid">
+        <article class="myth-card">
+          <div class="myth-top"><span class="tag tag-myth">MITO</span><span class="myth-number">01</span></div>
+          <h3>“La primera vez no puede haber embarazo”.</h3>
+          <button class="reveal-button" aria-expanded="false">Ver realidad <span>＋</span></button>
+          <div class="reveal-content" hidden><span class="tag tag-fact">REALIDAD</span><p>Puede ocurrir un embarazo la primera vez que hay sexo vaginal sin un método anticonceptivo eficaz. Infórmate sobre anticoncepción y prevención de ITS.</p></div>
+        </article>
+        <article class="myth-card">
+          <div class="myth-top"><span class="tag tag-myth">MITO</span><span class="myth-number">02</span></div>
+          <h3>“Todas las infecciones de transmisión sexual tienen síntomas”.</h3>
+          <button class="reveal-button" aria-expanded="false">Ver realidad <span>＋</span></button>
+          <div class="reveal-content" hidden><span class="tag tag-fact">REALIDAD</span><p>Algunas ITS pueden no causar síntomas. Las pruebas, el uso correcto del condón y la orientación de personal de salud ayudan a cuidar tu bienestar.</p></div>
+        </article>
+        <article class="myth-card">
+          <div class="myth-top"><span class="tag tag-myth">MITO</span><span class="myth-number">03</span></div>
+          <h3>“Pedir información significa que ya inicié mi vida sexual”.</h3>
+          <button class="reveal-button" aria-expanded="false">Ver realidad <span>＋</span></button>
+          <div class="reveal-content" hidden><span class="tag tag-fact">REALIDAD</span><p>Informarte es una forma de prevención. Puedes consultar dudas antes de tomar cualquier decisión y sin presión de otras personas.</p></div>
+        </article>
+      </div>
+      <p class="source-note">Contenido educativo general. Para orientación personalizada, consulta a profesionales de salud.</p>
+    </section>
+
+    <section class="health-section" id="centros">
+      <div class="section-wrap health-layout">
+        <div class="health-copy">
+          <div class="eyebrow">APOYO CERCA DE TI</div>
+          <h2>No tienes que resolverlo todo a solas.</h2>
+          <p>Busca servicios de salud de tu zona para recibir orientación confidencial y profesional.</p>
+          <button class="button button-primary" id="locateButton">⌖ Usar mi ubicación</button>
+          <p class="privacy-mini">Tu ubicación solo se utiliza en este navegador para abrir una búsqueda de servicios cercanos. No se guarda en esta página.</p>
+          <div class="location-status" id="locationStatus" role="status" aria-live="polite"></div>
+        </div>
+        <div class="map-card">
+          <div class="map-visual"><div class="map-road road-one"></div><div class="map-road road-two"></div><div class="map-road road-three"></div><span class="map-pin pin-one">✚</span><span class="map-pin pin-two">✚</span><span class="map-pin pin-three">✚</span><div class="map-label">SERVICIOS DE SALUD</div></div>
+          <div class="map-card-bottom"><div><b>Encuentra atención local</b><small>Abre el mapa para revisar ubicaciones y horarios actualizados.</small></div><a id="mapSearchLink" href="https://www.openstreetmap.org/search?query=centro%20de%20salud%20Villa%20Victoria%20Estado%20de%20Mexico" target="_blank" rel="noopener noreferrer" class="round-arrow" aria-label="Buscar centros de salud">↗</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="chat">
+      <div class="section-heading">
+        <div><div class="eyebrow">PUEDES PREGUNTAR</div><h2>Un espacio para tus dudas</h2></div>
+        <p>Escribe una pregunta y recibe una orientación inicial automatizada.</p>
+      </div>
+      <div class="chat-layout">
+        <div class="chat-info"><div class="chat-illustration"><span>✦</span><div class="chat-emoji">☺</div></div><h3>Pregunta con confianza.</h3><p>Este asistente ofrece información general, no diagnósticos. No escribas tu nombre, dirección ni otros datos personales.</p><div class="privacy-pill">🔒 No necesitas crear una cuenta</div></div>
+        <div class="chat-window">
+          <div class="chat-window-head"><span class="bot-avatar">e+</span><div><b>Orientación EducSex</b><small><span class="online-dot"></span> Asistente educativo</small></div><button id="clearChat" class="clear-chat" type="button" title="Limpiar conversación">↻</button></div>
+          <div class="chat-messages" id="chatMessages" aria-live="polite">
+            <div class="message bot-message">¡Hola! 💜 Estoy aquí para compartir información general. ¿Sobre qué tema tienes dudas?<div class="message-time">Asistente EducSex</div></div>
+          </div>
+          <div class="suggestions"><button type="button" data-question="anticonceptivos">Anticonceptivos</button><button type="button" data-question="embarazo">Embarazo</button><button type="button" data-question="ITS">ITS</button><button type="button" data-question="consentimiento">Consentimiento</button></div>
+          <form id="chatForm" class="chat-form"><label class="sr-only" for="chatInput">Escribe tu pregunta</label><input id="chatInput" type="text" maxlength="400" placeholder="Escribe tu pregunta..." autocomplete="off" required><button type="submit" aria-label="Enviar pregunta">↑</button></form>
+          <p class="chat-disclaimer">No es un servicio médico ni de emergencia. Si estás en peligro inmediato, busca ayuda de emergencia local.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="quiz-section" id="test">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="eyebrow">PON A PRUEBA LO QUE SABES</div><h2>Mini test de conocimientos</h2></div>
+          <p>Responde estas preguntas para repasar información importante.</p>
+        </div>
+        <div class="quiz-card" id="quizCard">
+          <div class="quiz-progress-line"><span id="progressText">Pregunta 1 de 5</span><div class="progress-track"><span id="progressBar"></span></div></div>
+          <div id="quizContent"></div>
+          <div class="quiz-footer"><span id="quizFeedback" aria-live="polite"></span><button class="button button-primary" id="quizNext" disabled>Siguiente →</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="help-banner section-wrap">
+      <div class="help-icon">♡</div><div><h2>Tu salud y tus decisiones importan.</h2><p>Busca información confiable, pide apoyo cuando lo necesites y recuerda que nadie debe presionarte.</p> <p>Contacto de orientacion 7259107736</p></div><a class="button button-light" href="#mitos">Seguir aprendiendo →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">e<span>+</span></span><span><strong>EducSex</strong><small>INFORMACIÓN QUE TE CUIDA</small></span></a><p>Proyecto escolar comunitario · Villa Victoria</p><p class="footer-disclaimer">Material educativo. No sustituye la consulta con profesionales de salud.</p></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
